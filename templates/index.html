@@ -1,0 +1,279 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header> 
+        <div class="nav_bar"> 
+            <div class="logo">
+                <img src= "{{ url_for('static', filename='images/logo.svg') }}" alt="Logo">
+            </div>
+            <div class="menu"> 
+                <ul class="menu-item"> 
+                    <li><a href="#">About us</a></li> 
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Use Clases</a></li> 
+                    <li><a href="#">Pricing</a></li> 
+                    <li><a href="#">Blog</a></li> 
+                </ul>
+                <button type="button" class="button">Request a quote</button> 
+            </div>
+        </div>
+    </header>
+    <main> <!-- Начало основного содержимого страницы -->
+        <div class="main-window">
+            <div>
+                <h1>Navigating the digital landscape for success</h1>
+                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <button type="button" id="button-main">Book a consultation</button>
+            </div>
+            <div>
+                <img src="static/images/Illustration.svg" id="img-main">
+            </div>
+        </div>
+        <div class="f-rw-sb" id="img-line">
+            <img src="static/images/c1.svg">
+            <img src="static/images/c2.svg">
+            <img src="static/images/c3.svg">
+            <img src="static/images/c4.svg">
+            <img src="static/images/c5.svg">
+            <img src="static/images/c6.svg">
+        </div>
+        <div class = "long-element">
+            <div class = "label-long-element">
+                <h2>Services</h2>
+            </div>
+            <div class = "text-long-element">
+                <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </div>
+        </div>
+        <div class="f-sl-sb">
+            <div class="f-rw-sb">
+                <div class="f-rw-sb cards-section" id="grey">
+                    <div class="text-card-section">
+                        <div>
+                            <h3 id="pink-h3">Search engine</h3>
+                            <h3 id="pink-h3">optimization</h3>
+                        </div>
+                        <div class="link">
+                            <div class="text-link">
+                                <a href="#">
+                                    <img src="static/images/icon_black.svg">
+                                </a>
+                                <a href="#">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-center">
+                        <img src="static/images/card1.svg">
+                    </div>
+                </div>
+                <div class="f-rw-sb cards-section" id="pink">
+                    <div class="text-card-section">
+                        <div>
+                            <h3 id="white-h3">Pay-per-click</h3>
+                            <h3 id="white-h3">advertising</h3>
+                        </div>
+                        <div class="link">
+                            <div class="text-link">
+                                <a href="#">
+                                    <img src="static/images/icon_black.svg">
+                                </a>
+                                <a href="#">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-center">
+                        <img src="static/images/card2.svg">
+                    </div>
+                </div>
+            </div>
+        <div>
+        <div class="f-sl-sb">
+            <div class="f-rw-sb">
+                <div class="f-rw-sb cards-section" id="black">
+                    <div class="text-card-section">
+                        <div>
+                            <h3 id="white-h3">Social Media</h3>
+                            <h3 id="white-h3">Marketing</h3>
+                        </div>
+                        <div class="link">
+                            <div class="text-link">
+                                <a href="#">
+                                    <img src="static/images/Icon_white.png">
+                                </a>
+                                <a href="#" id="white">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-center">
+                        <img src="static/images/card3.svg">
+                    </div>
+                </div>
+                <div class="f-rw-sb cards-section" id="grey">
+                    <div class="text-card-section">
+                        <div>
+                            <h3 id="pink-h3">Email</h3>
+                            <h3 id="pink-h3"><br>Marketing</br></h3>
+                        </div>
+                        <div class="link">
+                            <div class="text-link">
+                                <a href="#">
+                                    <img src="static/images/icon_black.svg">
+                                </a>
+                                <a href="#">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-center">
+                        <img src="static/images/card4.svg">
+                    </div>
+                </div>
+            </div>
+        <div>
+            <div class="f-sl-sb">
+                <div class="f-rw-sb">
+                    <div class="f-rw-sb cards-section" id="pink">
+                        <div class="text-card-section">
+                            <div>
+                                <h3 id="white-h3">Content</h3>
+                                <h3 id="white-h3"><br>Creation</br></h3>
+                            </div>
+                            <div class="link">
+                                <div class="text-link">
+                                    <a href="#">
+                                        <img src="static/images/icon_black.svg">
+                                    </a>
+                                    <a href="#">
+                                        Learn more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="align-center">
+                            <img src="static/images/card5.svg">
+                        </div>
+                    </div>
+                    <div class="f-rw-sb cards-section" id="black">
+                        <div class="text-card-section">
+                            <div>
+                                <h3 id="pink-h3">Analytics and</h3>
+                                <h3 id="pink-h3">Tracking</h3>
+                            </div>
+                            <div class="link">
+                                <div class="text-link">
+                                    <a href="#">
+                                        <img src="static/images/Icon_white.png"">
+                                    </a>
+                                    <a href="#" id="white">
+                                        Learn more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="align-center">
+                            <img src="static/images/card6.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="long_section">
+                <div class="long_card" id="grey">
+                <div class="text-long-card-section">
+                    <div>
+                        <h3 id="bott_long_text">Let’s make things happen</h3>
+                        <a id="bott_long_text">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</a>
+                        <br><button type="button" id="button-main">Get your free proposal</button></br>
+                    </div>
+                </div>
+                    <div class="align-center">
+                        <img src="static/images/long_card.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="numb_card">
+                <details>
+                    <summary>
+                        <div class="list">
+                            <div class="f-rw-sb align-i">
+                                <span class="num">01</span>
+                                <span class="num-text">Consultation </span>
+                            </div>
+                            <div>
+                                <img src="static/images/Plus icon.svg" class="summary-icon">
+                            </div>
+                        </div>
+                    </summary>
+                    <div class="line"></div>
+                    <!-- <div>
+                        <img src="static/images/Minus icon.svg" class="summary-icon">
+                    </div> -->
+                    <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                </details>
+            </div>
+    </main>
+    <footer>
+        <div class="footer_nav_bar">
+            <div class="footer_nav_bar_menu">
+                <div>
+                    <img src="static/images/logo2.svg" class="logo2">
+                </div>
+                <div>
+                    <ul class="menu" id="menu-footer"> 
+                        <li><a href="#">About us</a></li> 
+                        <li><a href="#">Services</a></li> 
+                        <li><a href="#">Use Cases</a></li> 
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li> 
+                    </ul>
+                </div>
+                <div>
+                    <img src="static/images/s1.svg" class="logo-s">
+                    <img src="static/images/s2.svg" class="logo-s">
+                    <img src="static/images/s3.svg" class="logo=s">
+                </div>
+            </div>
+            <div class="footer_nav_bar_info">
+                <div class="footer_nav_bar_info_left">
+                    <div class="contact-us">
+                        <h4>Contact us:</h4>
+                    </div>
+                    <div class="info">
+                        <p>Email: info@positivus.com</p>
+                        <p>Phone: 555-567-8901</p>
+                        <p id="last-str">Address: 1234 Main St <br>
+                            Moonstone City, Stardust State 12345</p>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <form action="/submit" method="POST" class = "form">
+                        <input type="text" id="textInput" name="textInput" placeholder="Email" required>
+                        <input type="submit" value="Subscribe to news">
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 Positivus. All Rights Reserved.</p>
+                    <div class="privat-policy">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
